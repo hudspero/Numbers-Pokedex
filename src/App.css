@@ -1,0 +1,99 @@
+body {
+  font-family: 'Consolas';
+  font-size: 0.9rem;
+  background-image: linear-gradient(to right, #3ce1f0, #5dffc9);
+}
+
+.App-header {
+  padding-left: 30px;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.form-text {
+  display: block;
+  margin-top: 0.3rem;
+}
+
+input[type='text'], select {
+  display: inline-block;
+  margin-left: 15%;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem;
+}
+
+input[type='submit'] {
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgb(189, 0, 0);
+  border: 0.2px solid rgb(189, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+td {
+  border-radius: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+#name, #picture, #entrynumber, #description, #types {
+  text-align: center;
+}
+
+#name {
+  background-color: rgb(255, 245, 100);
+  width: 130px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#picture {
+  background-color: rgb(255, 255, 255);
+  width: 96px;
+  height: 96px;
+}
+
+#entrynumber {
+  background-color: rgb(148, 218, 44);
+  width: 130px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#types {
+  background-color: #37ddec;
+  width: 130px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#stats {
+  background-color: rgb(255, 201, 100);
+  width: 250px;
+  height: 250px;
+  margin-right: 10%;
+  line-height: 1.7;
+}
+
+#description {
+  background-color: rgb(109, 109, 255);
+  width: 250px;
+  height: 250px;
+  line-height: 1.6rem;
+  color: white;
+  font-style: italic;
+  font-size: 1rem;
+}
